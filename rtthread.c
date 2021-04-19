@@ -54,15 +54,15 @@ int main(void)
     }  
 	*/
 	
-	 led1_thread =rt_thread_create("led1",led1_thread_entry,RT_NULL,512,3,20);//´´½¨Ïß³Ì
+	 led1_thread =rt_thread_create("led1",led1_thread_entry,RT_NULL,512,3,20);//ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½
 	 led3_thread =rt_thread_create("led3",led3_thread_entry,RT_NULL,512,3,20);
 	 if(led1_thread !=RT_NULL)
-   rt_thread_startup(led1_thread); //Èç¹û»ñµÃÏß³Ì¿ØÖÆ¿é£¬¾ÍÆô¶¯Õâ¸öÏß³Ì
+   rt_thread_startup(led1_thread); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì¿ï¿½ï¿½Æ¿é£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½
      else
        return -1;			 
 	 
 		  if(led3_thread !=RT_NULL)
-   rt_thread_startup(led3_thread); //Èç¹û»ñµÃÏß³Ì¿ØÖÆ¿é£¬¾ÍÆô¶¯Õâ¸öÏß³Ì
+   rt_thread_startup(led3_thread); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì¿ï¿½ï¿½Æ¿é£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½
      else
        return -1;			 
 	 
