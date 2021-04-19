@@ -18,7 +18,7 @@
 #define ADC_GPIO_PIN        GPIO_PIN_3
 
 uint16_t  adc_value;
-//float temperature;
+float temperature;
 float vref_value;
 
 void rcu_config(void);
