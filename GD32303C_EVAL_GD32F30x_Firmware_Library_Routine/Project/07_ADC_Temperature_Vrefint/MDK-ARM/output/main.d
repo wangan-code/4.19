@@ -31,6 +31,6 @@
 .\output\main.o: ..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_wwdgt.h
 .\output\main.o: ..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h
 .\output\main.o: ..\..\..\Library\Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h
-.\output\main.o: ..\..\..\Library\Utilities\gd32f303c_eval.h
 .\output\main.o: ..\systick.h
 .\output\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\main.o: ..\..\..\Library\Utilities\gd32f303c_eval.h
